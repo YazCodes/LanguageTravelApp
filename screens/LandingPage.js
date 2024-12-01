@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-nati
 
 const LandingPage = ({ navigation }) => {
   // State to hold the button text
-  const [buttonText, setButtonText] = useState('Start Learning!');
+  const [buttonText, setButtonText] = useState('Start Learning Now!');
 
   // Array of texts to cycle through
   const buttonTexts = ['Start Learning!', '行くぞ!', 'thưởng thức', '¡Vamos!'];
